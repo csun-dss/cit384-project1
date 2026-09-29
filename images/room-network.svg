@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 250">
+  <rect width="900" height="250" rx="12" fill="#fff"/>
+  <path d="M170 125 H310 M390 125 H510 M590 125 H730" stroke="#e48759" stroke-width="5"/>
+  <rect x="70" y="75" width="100" height="100" rx="8" fill="#1d4e5f"/><text x="120" y="118" text-anchor="middle" fill="#f6d58a" font-family="Arial" font-size="17">internet</text><text x="120" y="143" text-anchor="middle" fill="#fff" font-family="Arial" font-size="14">gateway</text>
+  <rect x="310" y="75" width="80" height="100" rx="8" fill="#dceff1" stroke="#1d4e5f" stroke-width="3"/><text x="350" y="118" text-anchor="middle" fill="#1d4e5f" font-family="Arial" font-size="16">firewall</text><text x="350" y="143" text-anchor="middle" fill="#1d4e5f" font-family="Arial" font-size="14">rules</text>
+  <rect x="510" y="75" width="80" height="100" rx="8" fill="#dceff1" stroke="#1d4e5f" stroke-width="3"/><text x="550" y="118" text-anchor="middle" fill="#1d4e5f" font-family="Arial" font-size="16">switch</text><text x="550" y="143" text-anchor="middle" fill="#1d4e5f" font-family="Arial" font-size="14">wired</text>
+  <rect x="730" y="75" width="100" height="100" rx="8" fill="#f6d58a"/><text x="780" y="118" text-anchor="middle" fill="#1d4e5f" font-family="Arial" font-size="16">access</text><text x="780" y="143" text-anchor="middle" fill="#1d4e5f" font-family="Arial" font-size="14">point / Wi-Fi</text>
+</svg>

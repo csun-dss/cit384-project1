@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Network Notes | My Setup</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="site-name" href="index.html">Home Network Notes</a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a class="current" href="setup.html">My Setup</a>
+        <a href="security.html">Security</a>
+        <a href="glossary.html">Glossary</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap page-content">
+    <p class="eyebrow">Page two</p>
+    <h1>My basic setup</h1>
+    <p class="page-lead">I like a setup that is easy to understand before it is fancy. The exact hardware can change, but these are the jobs each part needs to do.</p>
+
+    <figure class="wide-figure">
+      <img src="images/room-network.svg" alt="A home network diagram showing a firewall, switch, access point, and wired devices">
+      <figcaption>A simple layout separates the jobs of routing, switching, and wireless access.</figcaption>
+    </figure>
+
+    <section class="section-block image-gallery">
+      <h2>Connection examples</h2>
+      <div class="image-row">
+        <figure><img src="images/room-network.svg" alt="A gateway, firewall, switch, and access point connected in a row"><figcaption>Each piece of equipment has a separate job.</figcaption></figure>
+        <figure><img src="images/wired-wireless.svg" alt="A computer connected by cable and a phone connected by Wi-Fi"><figcaption>Wired and wireless connections can work together.</figcaption></figure>
+        <figure><img src="images/cable-labels.svg" alt="Three labeled network cables connected to a switch"><figcaption>Labels make later changes easier to follow.</figcaption></figure>
+      </div>
+    </section>
+
+    <div class="two-columns">
+      <section>
+        <h2>Four useful pieces</h2>
+        <ol class="setup-list">
+          <li><strong>Gateway:</strong> Connects the home network to the internet service provider.</li>
+          <li><strong>Firewall:</strong> Decides which traffic should be allowed in or out.</li>
+          <li><strong>Switch:</strong> Gives wired devices a place to connect.</li>
+          <li><strong>Access point:</strong> Provides Wi-Fi without making every device wireless.</li>
+        </ol>
+      </section>
+      <aside class="side-note">
+        <h2>My rule of thumb</h2>
+        <p>Change one thing at a time. If several settings are changed together, it becomes much harder to tell which change helped or caused the problem.</p>
+      </aside>
+    </div>
+
+    <section class="section-block">
+      <h2>What I check first</h2>
+      <div class="check-grid">
+        <div><span class="check-number">1</span><p>Is the problem on one device or the whole network?</p></div>
+        <div><span class="check-number">2</span><p>Does a wired connection work when Wi-Fi does not?</p></div>
+        <div><span class="check-number">3</span><p>Did anything change recently, such as an update or new device?</p></div>
+      </div>
+    </section>
+
+    <section class="section-block">
+      <h2>Why I still like wired connections</h2>
+      <p>Wi-Fi is convenient, but a wired connection is usually the first thing I choose for a desktop computer, television, or device that stays in one place. It avoids interference from walls and other wireless devices, and it gives me a simple comparison when I am trying to figure out whether a problem is caused by Wi-Fi or by the internet connection itself.</p>
+      <p>That does not mean every device needs a cable. Phones, tablets, and smart-home devices make more sense on Wi-Fi. The goal is to use each connection type where it fits best.</p>
+    </section>
+
+    <section class="section-block learning-note">
+      <h2>What I would improve next</h2>
+      <ul class="notes-list">
+        <li>Label the cables and ports so that changes are easier to trace later.</li>
+        <li>Make a short list of important device addresses and settings.</li>
+        <li>Test Wi-Fi signal strength in the rooms that are farthest from the access point.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>
+        Made as Project 1 for CIT 384 at
+        <a href="https://www.csun.edu/" title="csun.edu" target="_blank">CSUN</a>.
+      </p>
+      <p>Last updated: <time datetime="2026">2026</time></p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Network Notes | Glossary</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="site-name" href="index.html">Home Network Notes</a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="setup.html">My Setup</a>
+        <a href="security.html">Security</a>
+        <a class="current" href="glossary.html">Glossary</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap page-content">
+    <p class="eyebrow">Page four</p>
+    <h1>Words I had to learn</h1>
+    <p class="page-lead">These are a few networking terms that come up often. This page is meant to be useful when I forget which box or setting does what.</p>
+
+    <section>
+      <h2>Key terms</h2>
+      <div class="term-list">
+      <article class="term">
+        <h3>DNS</h3>
+        <p>The Domain Name System translates a website name, such as example.com, into an IP address that computers can use.</p>
+      </article>
+      <article class="term">
+        <h3>DHCP</h3>
+        <p>Dynamic Host Configuration Protocol gives devices network settings automatically, including an IP address.</p>
+      </article>
+      <article class="term">
+        <h3>VLAN</h3>
+        <p>A Virtual Local Area Network creates a separate logical network on shared physical equipment.</p>
+      </article>
+      <article class="term">
+        <h3>Latency</h3>
+        <p>Latency is the time it takes for data to travel from one place to another. Lower latency usually feels more responsive.</p>
+      </article>
+      <article class="term">
+        <h3>Bandwidth</h3>
+        <p>Bandwidth is the amount of data a connection can carry in a certain amount of time. It affects how much downloading, streaming, or video calling a network can handle at once.</p>
+      </article>
+      <article class="term">
+        <h3>IP address</h3>
+        <p>An IP address is a number used to identify a device on a network. A local device can have one address at home while the home network has another address facing the internet.</p>
+      </article>
+      </div>
+    </section>
+
+    <section class="section-block image-gallery">
+      <h2>Visual reminders</h2>
+      <div class="image-row">
+        <figure><img src="images/dns-path.svg" alt="A website name being translated to an IP address"><figcaption>DNS connects names to addresses.</figcaption></figure>
+        <figure><img src="images/vlan-lanes.svg" alt="Two separate network lanes sharing the same switch"><figcaption>VLANs keep different traffic groups apart.</figcaption></figure>
+        <figure><img src="images/troubleshooting.svg" alt="A four-step troubleshooting path"><figcaption>Start with the simplest check first.</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="section-block reading-box">
+      <h2>A note about unfamiliar words</h2>
+      <!-- MDN ELEMENT #2: On this Glossary page, details creates a native expandable explanation below this heading. -->
+      <!-- MDN ATTRIBUTE #2: On the details element below, open makes the explanation visible when the page first loads. -->
+      <details open>
+        <p><strong>Why do the terms matter?</strong> Words make troubleshooting more precise. “The internet is slow” is a starting point, but “DNS is failing” or “latency is high” points toward a particular test.</p>
+      </details>
+    </section>
+
+    <section class="mark-example">
+      <h2>One phrase I remember</h2>
+      <p>When diagnosing a problem, start with the <mark>simplest explanation</mark> and test it before changing complicated settings.</p>
+    </section>
+
+    <section class="section-block">
+      <h2>A simple troubleshooting sequence</h2>
+      <ol class="setup-list">
+        <li>Check cables, power lights, and whether the device is connected to the correct Wi-Fi network.</li>
+        <li>Try another website or another device to find out whether the issue is isolated.</li>
+        <li>Restart only the device that is having trouble before restarting larger parts of the network.</li>
+        <li>Write down what happened and what changed if the problem returns.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>
+        Made as Project 1 for CIT 384 at
+        <a href="https://www.csun.edu/" title="csun.edu" target="_blank">CSUN</a>.
+      </p>
+      <p>Last updated: <time datetime="2026">2026</time></p>
+    </div>
+  </footer>
+</body>
+</html>

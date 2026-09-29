@@ -1,0 +1,84 @@
+/* Main stylesheet for Home Network Notes. */
+
+html, body { background: #1d4e5f; margin: 0; }
+h1, h2, h3, p { margin-top: 0; }
+
+body {
+  width: 80%; margin-right: auto; margin-left: auto; padding: 2.5% 2.5% 0;
+  color: #263d45; background: #f9fcfc; font-family: Verdana, Geneva, sans-serif;
+  font-size: 100%; line-height: 1.7;
+}
+
+h1, h2, h3 { color: #1d4e5f; }
+h1 { margin-bottom: .4em; font: 2.5em Georgia, "Times New Roman", Times, serif; }
+h2 { margin-bottom: .4em; font: 1.6em Georgia, "Times New Roman", Times, serif; }
+h3 { font-size: 1.2em; }
+p { margin-bottom: 1em; }
+a { color: #b85042; }
+a:hover { color: #74362e; }
+
+.site-header { margin-bottom: 2em; padding-bottom: .6em; border-bottom: 1px solid #84aeb8; }
+.site-name { color: #1d4e5f; font: 1.6em Georgia, "Times New Roman", Times, serif; text-decoration: none; }
+nav { margin-top: .6em; }
+nav a { margin-right: 1.2em; text-decoration: none; }
+nav a.current { color: #1d4e5f; font-weight: bold; }
+
+.eyebrow { margin-bottom: .4em; color: #b85042; font-size: .8em; font-weight: bold; text-transform: uppercase; }
+.lead, .page-lead { font-size: 1.1em; }
+.button { display: inline-block; padding: .4em .9em; color: white; background: #287080; text-decoration: none; }
+.button:hover { color: white; background: #1d4e5f; }
+
+.intro, .two-columns, .safety-note { overflow: auto; }
+.intro { margin-bottom: 2em; }
+.intro-text { float: left; width: 55%; }
+.intro-image { float: right; width: 38%; margin: 1em 0 1em 2%; }
+.section-block { clear: both; margin-top: 2em; margin-bottom: 2em; }
+.three-columns, .security-grid, .check-grid, .term-list { overflow: auto; }
+.image-row { overflow: auto; }
+.image-row figure { float: left; width: 28%; min-height: 205px; margin: 0 2% 1em 0; padding: 1em; border: 1px solid #9cc2ca; background: white; }
+.image-row figure:last-child { margin-right: 0; }
+.image-row img { display: block; width: 100%; height: 125px; }
+.image-row figcaption { margin-bottom: 0; }
+
+.card, .security-card { float: left; width: 28%; min-height: 190px; margin-right: 2%; padding: 1em; border: 1px solid #9cc2ca; background: white; }
+.card:last-child, .security-card:last-child { margin-right: 0; }
+
+.highlight { clear: both; overflow: auto; margin-bottom: 2em; padding: 1.5em; background: #dceff1; }
+.highlight div:first-child { float: left; width: 70%; }
+.number-box { float: right; width: 20%; padding-left: 1em; border-left: .3em solid #e48759; }
+.number-box strong { display: block; color: #b85042; font-size: 2em; }
+.page-content { min-height: 500px; }
+
+.wide-figure { margin: 1em 0 2em; padding: 1em; border: 1px solid #9cc2ca; background: white; }
+.wide-figure img { display: block; width: 100%; }
+figcaption { margin-top: .7em; font-size: .85em; }
+.two-columns > section { float: left; width: 60%; }
+.side-note { float: right; width: 28%; padding: 1em; color: white; background: #287080; }
+.side-note h2 { color: white; }
+.setup-list li, .plain-list li { margin-bottom: .8em; }
+.check-grid > div { float: left; width: 29%; margin-right: 3%; }
+.check-grid > div:last-child { margin-right: 0; }
+.check-number, .card-number { color: #b85042; font-weight: bold; }
+.card-number { display: block; margin-bottom: .7em; font-size: 1.4em; }
+
+.safety-note { padding: 1.3em; background: #dceff1; }
+.safety-note > div { float: left; width: 48%; }
+.safety-note .plain-list { float: right; width: 42%; }
+.network-score { margin-bottom: .2em; color: #b85042; font-size: 1.4em; font-weight: bold; }
+.meter-label { font-size: .85em; }
+.quote-box { margin: 2em 0; padding: 1em 1.5em; border-left: .4em solid #e48759; background: #eef6f7; }
+.quote-box p { margin-bottom: 0; }
+
+.term { float: left; width: 42%; min-height: 150px; margin: 0 4% 1.2em 0; padding: 1em; border: 1px solid #9cc2ca; background: white; }
+.term:nth-child(even) { margin-right: 0; }
+.term h3 { color: #b85042; }
+.reading-box { padding: 1em; border: 1px solid #9cc2ca; background: white; }
+.mark-example { margin-top: 2em; padding-top: 1em; border-top: 3px solid #e48759; }
+mark { background: #f6d58a; }
+
+.notes-list { margin-bottom: 0; }
+.notes-list li { margin-bottom: .8em; }
+.learning-note { padding: 1em 1.4em; border-left: .4em solid #287080; background: #eef6f7; }
+
+.site-footer { clear: both; margin-top: 2em; border-top: 1px solid #84aeb8; text-align: center; font-size: .8em; line-height: 2em; }
+.footer-inner p { display: inline; margin: 0 1em; }

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 180">
+  <rect width="300" height="180" fill="#eef6f7"/>
+  <rect x="25" y="63" width="85" height="50" rx="6" fill="#fff" stroke="#1d4e5f" stroke-width="3"/><text x="67" y="85" text-anchor="middle" fill="#1d4e5f" font-family="Arial" font-size="12">website</text><text x="67" y="101" text-anchor="middle" fill="#1d4e5f" font-family="Arial" font-size="10">name</text>
+  <path d="M110 88 H190" stroke="#e48759" stroke-width="5"/><path d="M180 78 L195 88 L180 98" fill="#e48759"/>
+  <rect x="190" y="63" width="85" height="50" rx="6" fill="#dceff1" stroke="#1d4e5f" stroke-width="3"/><text x="232" y="85" text-anchor="middle" fill="#1d4e5f" font-family="Arial" font-size="12">IP</text><text x="232" y="101" text-anchor="middle" fill="#1d4e5f" font-family="Arial" font-size="10">address</text>
+  <text x="150" y="145" text-anchor="middle" fill="#287080" font-family="Arial" font-size="13">DNS translates the name</text>
+</svg>

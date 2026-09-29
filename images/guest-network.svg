@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 180">
+  <rect width="300" height="180" fill="#dceff1"/>
+  <rect x="25" y="35" width="110" height="105" rx="8" fill="#fff" stroke="#287080" stroke-width="4"/><text x="80" y="60" text-anchor="middle" fill="#1d4e5f" font-family="Arial" font-size="14">main network</text>
+  <circle cx="58" cy="92" r="14" fill="#287080"/><circle cx="101" cy="92" r="14" fill="#287080"/><path d="M58 112 H101" stroke="#287080" stroke-width="4"/>
+  <rect x="165" y="35" width="110" height="105" rx="8" fill="#fff" stroke="#e48759" stroke-width="4"/><text x="220" y="60" text-anchor="middle" fill="#1d4e5f" font-family="Arial" font-size="14">guest Wi-Fi</text>
+  <circle cx="220" cy="92" r="14" fill="#e48759"/><path d="M135 88 H165" stroke="#1d4e5f" stroke-width="3" stroke-dasharray="5 4"/><line x1="146" y1="78" x2="154" y2="98" stroke="#b85042" stroke-width="4"/>
+</svg>
